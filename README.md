@@ -14,4 +14,5 @@ This was an opportunity to use all the JavaScript skills and knowledge I picked 
 This was a group project, we took an agile approach to this project with myself as the Scrum Master.
 
 **How long did the project take?** 
+
 This project was started from scratch and took 6 days in total.
