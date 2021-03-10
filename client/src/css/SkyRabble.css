@@ -1,0 +1,102 @@
+.player-button {
+
+    /* font-size: xx-small; */
+    margin: 5px 5px 50px 5px;
+}
+
+.skyrabble-button-container {
+
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 25px;
+    margin-right: 20px;
+}
+
+.skyrabble-button-active {
+    color:green;
+}
+
+.skyrabble-logo-container {
+    display: flex;
+    justify-content: center;
+}
+.skyrabble-game-logo {
+
+    max-width: 500px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.skyrabble-word-bar {
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.skyrabble-players-words {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    flex-basis: 50vw;
+}
+
+.skyrabble-single-word {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.main-letter {
+    font-size: larger;
+    position:absolute;
+    top: 225px;
+    z-index: 2;
+
+}
+
+.letter-bottom-row {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    padding-right: 8px;
+
+}
+
+.letter-value {
+    font-size: 8px;
+    padding: 0;
+}
+.letter-tile {
+
+    /* display: flex;
+    flex-direction: column; */
+    position:relative;
+    text-align: center;
+    color: black;
+    background-color: palegoldenrod;
+    border-radius: 5px;
+    font-family: 'News Cycle', sans-serif;
+    height: 43px;
+    width: 43px;
+    margin-top: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    margin-bottom: 10px;
+    /* padding: 4px; */
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.5);
+}
+
+#letters {
+    margin-top: 8px;
+    font-size: 14px;
+    /* font-weight: bold; */
+}
+
+#number {
+    /* padding-bottom: 10%; */
+    margin-bottom: 10px;
+}

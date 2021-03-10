@@ -1,0 +1,122 @@
+.search_container {
+    /* padding-top: 10px; */
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+
+.search_label {
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.search_container label {
+    color: white;
+    margin-right: 2%;
+    margin-left: 15%;
+}
+
+.search_container input {
+    color: white;
+    font-size: 3rem;
+    margin-left: 2%;
+    border: none;
+    background: transparent;
+    margin-bottom: 100px;
+}
+
+.search_container input:focus-visible{
+    outline: none;  
+}
+
+.search_container ::placeholder {
+    color: rgba(219, 219, 219, 0.2);
+    font-size: 2rem;
+}
+
+.leaflet-container {
+    width: 100vw;
+    height: 100vh;
+    background-color:rgba(255,0,0,0.0);
+}
+.main-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.instructions-container {
+    padding-left: 56%;
+}
+  
+
+.instructions {
+    height: 200px;
+    width: 400px;
+    margin:auto;
+}
+
+h2 {
+    color: white;
+    margin-left: 30px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-weight:bolder;
+  }
+
+  .symbol { 
+    margin-left: 3px;
+    margin-right: 6px;
+    width: 15px; 
+    padding: 5px;
+    justify-content: center;
+    height: 15px; 
+    background-color: rgb(255, 0, 0);
+    display: inline-block;
+    text-align: center;
+    /* vertical-align: middle; */
+    line-height: 15px; 
+    }
+
+.main-logo img {
+    height: 10rem;
+}
+
+.main-logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+
+}
+
+.error {
+    justify-content: center;
+    height: 200px;
+    width: 400px;
+    /* margin-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px; */
+    margin-top: 60px;
+    margin-left: 27%;
+    padding: 8%;
+    transition: transform .2s;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    /* margin-left: 25%; */
+    /* text-align: center; */
+    cursor: pointer;
+}
+
+.error:hover {
+    transform: scale(1.1);
+}
